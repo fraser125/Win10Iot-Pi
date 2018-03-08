@@ -21,19 +21,19 @@ This is a great board, simple gpio, nice functionality, should be really easy to
 
 **I cannot** recommend it for use with Windows IoT at this time. Too many features don't work as expected. 
 
-### LED Display Driver MAX7219 [ZeroSeg](https://thepihut.com/products/zeroseg)
+### LED Display Driver [MAX7219](https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf) [ZeroSeg](https://thepihut.com/products/zeroseg)
 The ZeroSeg is a simple display for numbers and some letters ('H','L','P','E'). It uses SPI0 communication and GPIO 17,26 for the 2 buttons. 
 This implementation is kind of minimal, as I use it in personal projects this may improve.
 
-### 16 Channel PWM PCA9685 [Servo PWM PiZero](https://thepihut.com/products/servo-pwm-pizero) & [Adafruit PWM/Servo HAT](https://thepihut.com/products/adafruit-16-channel-pwm-servo-hat-for-raspberry-pi-mini-kit)
+### 16 Channel PWM [PCA9685](https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf) [Servo PWM PiZero](https://thepihut.com/products/servo-pwm-pizero) & [Adafruit PWM/Servo HAT](https://thepihut.com/products/adafruit-16-channel-pwm-servo-hat-for-raspberry-pi-mini-kit)
 This implemenation is not tested at this time.
 
 ## Future Hats to support
 ### [Blinkt!](https://thepihut.com/products/blinkt) APA102
-### [Scroll pHAT](https://thepihut.com/products/scroll-phat) IS31FL3730
-### [Touch pHAT](https://thepihut.com/products/touch-phat) CAP1166
+### [Scroll pHAT](https://thepihut.com/products/scroll-phat) [IS31FL3730](http://www.issi.com/WW/pdf/31FL3730.pdf)
+### [Touch pHAT](https://thepihut.com/products/touch-phat) [CAP1166](http://ww1.microchip.com/downloads/en/DeviceDoc/CAP1166.pdf)
 ### [OnOff SHIM](https://thepihut.com/products/onoff-shim) GPIO
-### [Button Shim](https://shop.pimoroni.com/products/button-shim) APA102 & TCA9554A
-### [Enviro pHAT](https://shop.pimoroni.com/products/enviro-phat) BMP280 & TCS3472 & LSM303D & ADS1015
-### [Automation HAT](https://shop.pimoroni.com/products/automation-hat) & [Automation pHAT](https://shop.pimoroni.com/products/automation-phat) - [Pin Reference](https://pinout.xyz/pinout/automation_hat) GPIO & ADS1015 & SPI
-### [Four Letter pHAT](https://shop.pimoroni.com/products/four-letter-phat) HT16K33
+### [Button Shim](https://shop.pimoroni.com/products/button-shim) APA102 & [TCA9554A](http://www.ti.com/lit/ds/symlink/tca9554a.pdf)
+### [Enviro pHAT](https://shop.pimoroni.com/products/enviro-phat) [BMP280](https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001-19.pdf) & TCS3472 & [LSM303D](http://www.st.com/resource/en/datasheet/lsm303d.pdf) & [ADS1015](http://www.ti.com/product/ADS1015)
+### [Automation HAT](https://shop.pimoroni.com/products/automation-hat) & [Automation pHAT](https://shop.pimoroni.com/products/automation-phat) - [Pin Reference](https://pinout.xyz/pinout/automation_hat) GPIO & [ADS1015](http://www.ti.com/product/ADS1015) & SPI
+### [Four Letter pHAT](https://shop.pimoroni.com/products/four-letter-phat) [HT16K33](http://www.holtek.com/documents/10179/116711/HT16K33v120.pdf)

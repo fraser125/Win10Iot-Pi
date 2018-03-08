@@ -2,7 +2,11 @@
 This is a Raspberry Pi Hat code library for "Windows IoT (Internet of Things) 10".
 I want to make the following clear:
 * This code repository is for Windows IoT 10, version "Windows 10 Fall Creators Update (10.0; Build 16299) or higher
-* **NOT for Linux** (i.e. Raspbian, Ubuntu, etc.)
+* **NOT for Linux/Mono** (i.e. Raspbian, Ubuntu, etc.)
+* Pin limitations
+  * Hat Identifier pins 0, 1 not available
+  * USART0 (14,15) is available, but pins are not usable for GPIO.
+  * Pins 4,5,17 may have some limitations, I'm still trying to confirm.
 
 ## Discoverable Interfaces
 The is a collection of code snippets that are built in to the .NET IoT framework for determining what features or settings are available without additional code.
@@ -31,5 +35,5 @@ This implemenation is not tested at this time.
 ### [OnOff SHIM](https://thepihut.com/products/onoff-shim) GPIO
 ### [Button Shim](https://shop.pimoroni.com/products/button-shim) APA102 & TCA9554A
 ### [Enviro pHAT](https://shop.pimoroni.com/products/enviro-phat) BMP280 & TCS3472 & LSM303D & ADS1015
-### [Automation HAT](https://shop.pimoroni.com/products/automation-hat) & [Automation pHAT](https://shop.pimoroni.com/products/automation-phat) [Reference](https://pinout.xyz/pinout/automation_hat) GPIO & ADS1015 & SPI
+### [Automation HAT](https://shop.pimoroni.com/products/automation-hat) & [Automation pHAT](https://shop.pimoroni.com/products/automation-phat) - [Pin Reference](https://pinout.xyz/pinout/automation_hat) GPIO & ADS1015 & SPI
 ### [Four Letter pHAT](https://shop.pimoroni.com/products/four-letter-phat) HT16K33

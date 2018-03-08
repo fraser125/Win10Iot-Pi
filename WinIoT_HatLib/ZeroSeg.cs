@@ -66,8 +66,8 @@ namespace WinIoT_HatLib
             device = await SpiDevice.FromIdAsync(spiDevices[0].Id, settings);
             device.Write(new[] { (byte)Registers.ScanLimit, (byte)7 });
             device.Write(new[] { (byte)Registers.Intensity, (byte)7 });
-            device.Write(new[] { (byte)Registers.DecodeMode, (byte)FontMode.BCD8 });
             Clear();
+            device.Write(new[] { (byte)Registers.DecodeMode, (byte)FontMode.BCD8 });
             device.Write(new[] { (byte)Registers.Shutdown, (byte)0x01 });
             IsReady = true;
         }

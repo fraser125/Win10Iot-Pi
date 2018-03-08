@@ -21,10 +21,11 @@ namespace Example_Win10IoT_DiscoverableInterfaces
         {
             deferredTask = taskInstance.GetDeferral();
             DiscoverDevicesInput();
-            return;
+
             GpioConfiguration();
             GpioTestInputButtons();
             GpioTestOutputLEDs();
+            GpioClose();
             DiscoverSPI();
             DiscoverI2C();
             DiscoverSerial();
@@ -41,7 +42,7 @@ namespace Example_Win10IoT_DiscoverableInterfaces
         private void DiscoverDevicesInput()
         {
             var keyboardCapabilities = new KeyboardCapabilities();
-            Debug.WriteLine("Keyboard Present: {0}", keyboardCapabilities.KeyboardPresent == 1 ? "Yes" : "No");
+            Debug.WriteLine("Keyboard Present: {0}", keyboardCapabilities.KeyboardPresent == 1 ? "Yes" : "No", false);
 
             var mouseCapabilities = new MouseCapabilities();
             Debug.WriteLine("Mouse Present:{0}  Number of Buttons:{1}  Swapped:{2}", mouseCapabilities.MousePresent == 1 ? "Yes" : "No", mouseCapabilities.NumberOfButtons, mouseCapabilities.SwapButtons == 1 ? "Yes" : "No");
@@ -55,11 +56,12 @@ namespace Example_Win10IoT_DiscoverableInterfaces
                 foreach (PointerDevice pointer in pointers)
                 {
                     Debug.WriteLine("Pointer Device Type:{0}  Integrated:{1}", pointer.PointerDeviceType, pointer.IsIntegrated);
-                    Debug.WriteLine("\t Contacts", pointer.MaxContacts, pointer.MaxPointersWithZDistance);
-                    Debug.WriteLine("\t", pointer.PhysicalDeviceRect, pointer.ScreenRect);
+                    Debug.WriteLine("\t Contact Count:{0}  Pointers w/Z:{1}", pointer.MaxContacts, pointer.MaxPointersWithZDistance);
+                    Debug.WriteLine("\t Device Rectangle:{0}  Screen Rectangle:{1}", pointer.PhysicalDeviceRect, pointer.ScreenRect);
                     foreach (PointerDeviceUsage pointerDeviceUsage in pointer.SupportedUsages)
                     {
-                        //Debug.WriteLine("",  );
+                        Debug.WriteLine("Pointer Device Usage");
+                        Debug.WriteLine("\tPage:{0}", pointerDeviceUsage.UsagePage);
                     }
                 }
         }
@@ -139,23 +141,48 @@ namespace Example_Win10IoT_DiscoverableInterfaces
             }
         }
 
-        private void GpioConfiguration()
+        private void GpioClose()
         {
             GpioController gpio = GpioController.GetDefault();
-            int[] pins = new int[30];
-
-            for (int idx = 0; idx < 30; idx++)
+            int[] pins = new int[50];
+            // 0 - 28 Pi2 and Later  35, 47 RPi2 Only
+            for (int idx = 0; idx < 50; idx++)
             {
                 pins[idx] = idx;
             }
 
-            pins[28] = 35; // RPi2 Only
-            pins[29] = 47; // RPi2 Only
+            for (int idx = 0; idx < pins.Length; idx++)
+            {
+                GpioPin pin;
+                GpioOpenStatus status;
+                if (gpio.TryOpenPin(pins[idx], GpioSharingMode.SharedReadOnly, out pin, out status))
+                {
+                    if (pin != null)
+                        pin.Dispose();
+                }
+                else
+                {
+                    if (pin != null)
+                        pin.Dispose();
+                }
+            }
+        }
+
+        private void GpioConfiguration()
+        {
+            GpioController gpio = GpioController.GetDefault();
+            int[] pins = new int[50];
+            // 0 - 28 Pi2 and Later  35, 47 RPi2 Only
+            for (int idx = 0; idx < 50; idx++)
+            {
+                pins[idx] = idx;
+            }
 
             for (int pinId = 0; pinId < pins.Length; pinId++)
             {
                 List<GpioPinDriveMode> supported = new List<GpioPinDriveMode>();
-                if (gpio.TryOpenPin(pins[pinId], GpioSharingMode.SharedReadOnly, out GpioPin pin, out _))
+                GpioOpenStatus openStatus;
+                if (gpio.TryOpenPin(pins[pinId], GpioSharingMode.SharedReadOnly, out GpioPin pin, out openStatus))
                 {
                     foreach (GpioPinDriveMode driveMode in Enum.GetValues(typeof(GpioPinDriveMode)))
                     {
@@ -165,22 +192,21 @@ namespace Example_Win10IoT_DiscoverableInterfaces
                             supported.Add(driveMode);
                         }
                     }
+
                 }
+                Debug.WriteLine("GPIO: {0} Status: {1}   Supported Drive Modes: {2}", pins[pinId], openStatus, (supported.Count == 0) ? "0" : string.Join(",", supported));
             }
         }
 
         private void GpioTestOutputLEDs()
         {
             GpioController gpio = GpioController.GetDefault();
-            int[] pins = new int[30];
-
-            for (int idx = 0; idx < 30; idx++)
+            int[] pins = new int[50];
+            // 0 - 28 Pi2 and Later  35, 47 RPi2 Only
+            for (int idx = 0; idx < 50; idx++)
             {
                 pins[idx] = idx;
             }
-
-            pins[28] = 35; // RPi2 Only
-            pins[29] = 47; // RPi2 Only
 
             for (int pinId = 0; pinId < pins.Length; pinId++)
             {
@@ -205,15 +231,12 @@ namespace Example_Win10IoT_DiscoverableInterfaces
         private void GpioTestInputButtons()
         {
             GpioController gpio = GpioController.GetDefault();
-            int[] pins = new int[30];
-
-            for (int idx = 0; idx < 30; idx++)
+            int[] pins = new int[50];
+            // 0 - 28 Pi2 and Later  35, 47 RPi2 Only
+            for (int idx = 0; idx < 50; idx++)
             {
                 pins[idx] = idx;
             }
-
-            pins[28] = 35; // RPi2 Only
-            pins[29] = 47; // RPi2 Only
 
             for (int pinId = 0; pinId < pins.Length; pinId++)
             {

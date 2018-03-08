@@ -16,12 +16,12 @@ They are just some simple examples of using the code found in the "WinIoT_HatLib
 
 ## WinIoT_HatLib
 
-### [Status Board Pro](https://thepihut.com/products/status-board-pro) & [Status Board Zero](https://thepihut.com/products/status-board-zero)
+### GPIO [Status Board Pro](https://thepihut.com/products/status-board-pro) & [Status Board Zero](https://thepihut.com/products/status-board-zero)
 This is a great board, simple gpio, nice functionality, should be really easy to use in Linux.
 
 **I cannot** recommend it for use with Windows IoT at this time. Too many features don't work as expected. 
 
-### [ZeroSeg](https://thepihut.com/products/zeroseg)
+### LED Display Driver MAX7219 [ZeroSeg](https://thepihut.com/products/zeroseg)
 The ZeroSeg is a simple display for numbers and some letters ('H','L','P','E'). It uses SPI0 communication and GPIO 17,26 for the 2 buttons. 
 This implementation is kind of minimal, as I use it in personal projects this may improve.
 

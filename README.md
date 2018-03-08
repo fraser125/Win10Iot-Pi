@@ -3,7 +3,7 @@ This is a Raspberry Pi Hat code library for "Windows IoT (Internet of Things) 10
 I want to make the following clear:
 * This code repository is for Windows IoT 10, version "Windows 10 Fall Creators Update (10.0; Build 16299) or higher
 * **NOT for Linux/Mono** (i.e. Raspbian, Ubuntu, etc.)
-* Pin limitations
+* Win 10 Iot Raspberry Pi - Pin limitations
   * Hat Identifier pins 0, 1 not available
   * USART0 (14,15) is available, but pins are not usable for GPIO.
   * Pins 4,5,17 may have some limitations, I'm still trying to confirm.

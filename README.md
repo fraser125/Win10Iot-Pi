@@ -37,3 +37,6 @@ This implemenation is not tested at this time.
 ### [Enviro pHAT](https://shop.pimoroni.com/products/enviro-phat) [BMP280](https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001-19.pdf) & TCS3472 & [LSM303D](http://www.st.com/resource/en/datasheet/lsm303d.pdf) & [ADS1015](http://www.ti.com/product/ADS1015)
 ### [Automation HAT](https://shop.pimoroni.com/products/automation-hat) & [Automation pHAT](https://shop.pimoroni.com/products/automation-phat) - [Pin Reference](https://pinout.xyz/pinout/automation_hat) GPIO & [ADS1015](http://www.ti.com/product/ADS1015) & SPI
 ### [Four Letter pHAT](https://shop.pimoroni.com/products/four-letter-phat) [HT16K33](http://www.holtek.com/documents/10179/116711/HT16K33v120.pdf)
+
+## Additional References
+### [Microsoft Hardware Compabitility List](https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/HardwareCompatList)

@@ -39,14 +39,26 @@ This implemenation is not tested at this time.
 ### [Explorer HAT Pro](https://shop.pimoroni.com/products/explorer-hat) - [Pinout](https://pinout.xyz/pinout/explorer_hat_pro) - GPIO & [ADS1015](http://www.ti.com/product/ADS1015) & [CAP1208](http://ww1.microchip.com/downloads/en/DeviceDoc/00001570C.pdf)
 ### [Explorer pHAT](https://shop.pimoroni.com/products/explorer-phat) - [Pinout](https://pinout.xyz/pinout/explorer_phat) - GPIO & [ADS1015](http://www.ti.com/product/ADS1015)
 ### [Four Letter pHAT](https://shop.pimoroni.com/products/four-letter-phat) - [Pinout](https://pinout.xyz/pinout/four_letter_phat) - [HT16K33](http://www.holtek.com/documents/10179/116711/HT16K33v120.pdf)
+### [LED SHIM](https://shop.pimoroni.com/products/led-shim) - [Pinout](https://pinout.xyz/pinout/led_shim) - [IS31FL3731](http://www.issi.com/WW/pdf/31FL3731.pdf)
 ### [Micro Dot pHAT](https://shop.pimoroni.com/products/microdot-phat) - [Pinout](https://pinout.xyz/pinout/micro_dot_phat) - [IS31FL3730](http://www.issi.com/WW/pdf/31FL3730.pdf)
+### [Mote pHAT](https://shop.pimoroni.com/products/mote-phat) - [Pinout](https://pinout.xyz/pinout/mote_phat) - APA102
 ### [OnOff SHIM](https://thepihut.com/products/onoff-shim) GPIO
 ### [Pan-Tilt HAT](https://thepihut.com/products/pan-tilt-hat) - [Pinout](https://pinout.xyz/pinout/pan_tilt_hat) - PIC16F1503 Custom Firmware
 ### [pHat BEAT](https://shop.pimoroni.com/products/phat-beat) - [Pinout](https://pinout.xyz/pinout/phat_beat) - [I2S]() & GPIO
 ### [Piano HAT](https://shop.pimoroni.com/products/piano-hat) - [Pinout](https://pinout.xyz/pinout/piano_hat) - [CAP1188](http://ww1.microchip.com/downloads/en/DeviceDoc/CAP1188%20.pdf) & GPIO
+### [PiGlow](https://shop.pimoroni.com/products/piglow) - [Pinout](https://pinout.xyz/pinout/piglow) - [SN3218](http://www.si-en.com/uploadpdf/s2011517171720.pdf)
 ### [Scroll pHAT](https://thepihut.com/products/scroll-phat) - [Pinout](https://pinout.xyz/pinout/scroll_phat) - [IS31FL3730](http://www.issi.com/WW/pdf/31FL3730.pdf)
 ### [Scroll pHAT HD](https://thepihut.com/products/scroll-phat) - [Pinout](https://pinout.xyz/pinout/scroll_phat_hd) - [IS31FL3731](http://www.issi.com/WW/pdf/31FL3731.pdf)
+### [Skywriter HAT](https://shop.pimoroni.com/products/skywriter-hat) - [Pinout](https://pinout.xyz/pinout/skywriter_hat) - [MGC3130](http://ww1.microchip.com/downloads/en/DeviceDoc/40001667E.pdf)
 ### [Touch pHAT](https://thepihut.com/products/touch-phat) - [Pinout](https://pinout.xyz/pinout/touch_phat) - [CAP1166](http://ww1.microchip.com/downloads/en/DeviceDoc/CAP1166.pdf)
+
+## No plans to ever support
+### [Unicorn HAT] - Uses PWM tricks on a single pin
+### [Unicorn pHAT] - Uses PWM tricks on a single pin
+### [Unicorn HAT HD] - Uses custom commands on an ARM processor
+### [Speaker pHAT] - I2S is not supported by Windows 10 IoT Core
+### [pHAT DAC] - I2S is not supported by Windows 10 IoT Core
+### Any Justboom products - They are awesome but "I2S is not supported by Windows 10 IoT Core"
 
 ## Additional References
 ### [Microsoft Hardware Compabitility List](https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/HardwareCompatList)

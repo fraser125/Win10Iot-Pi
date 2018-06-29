@@ -33,13 +33,19 @@ This implemenation is not tested at this time.
 ### [Automation pHAT](https://shop.pimoroni.com/products/automation-phat) - [Pinout](https://pinout.xyz/pinout/automation_phat) - GPIO & [ADS1015](http://www.ti.com/product/ADS1015)
 ### [Blinkt!](https://thepihut.com/products/blinkt) - [Pinout](https://pinout.xyz/pinout/blinkt) - APA102
 ### [Button Shim](https://shop.pimoroni.com/products/button-shim) - [Pinout](https://pinout.xyz/pinout/button_shim) - APA102 & [TCA9554A](http://www.ti.com/lit/ds/symlink/tca9554a.pdf)
+### [Display-O-Tron HAT](https://shop.pimoroni.com/products/display-o-tron-hat) - [Pinout](https://pinout.xyz/pinout/display_o_tron_hat) - [CAP1166](http://ww1.microchip.com/downloads/en/DeviceDoc/CAP1166.pdf) & [SN3218](http://www.si-en.com/uploadpdf/s2011517171720.pdf)
+### [Drum HAT](https://shop.pimoroni.com/products/drum-hat) - [Pinout](https://pinout.xyz/pinout/drum_hat) - [CAP1188](http://ww1.microchip.com/downloads/en/DeviceDoc/CAP1188%20.pdf)
 ### [Enviro pHAT](https://shop.pimoroni.com/products/enviro-phat) - [Pinout](https://pinout.xyz/pinout/enviro_phat) - [BMP280](https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001-19.pdf) & [TCS3472](https://ams.com/jpn/content/download/319364/1117183/file/TCS3472_Datasheet_EN_v2.pdf) & [LSM303D](http://www.st.com/resource/en/datasheet/lsm303d.pdf) & [ADS1015](http://www.ti.com/product/ADS1015)
-### [Explorer Hat Pro](https://shop.pimoroni.com/products/explorer-hat) - [Pinout](https://pinout.xyz/pinout/explorer_hat_pro) - GPIO & [ADS1015](http://www.ti.com/product/ADS1015) & [CAP1208](http://ww1.microchip.com/downloads/en/DeviceDoc/00001570C.pdf)
-### [Explorer pHat](https://shop.pimoroni.com/products/explorer-phat) - [Pinout](https://pinout.xyz/pinout/explorer_phat) - GPIO & [ADS1015](http://www.ti.com/product/ADS1015)
+### [Explorer HAT Pro](https://shop.pimoroni.com/products/explorer-hat) - [Pinout](https://pinout.xyz/pinout/explorer_hat_pro) - GPIO & [ADS1015](http://www.ti.com/product/ADS1015) & [CAP1208](http://ww1.microchip.com/downloads/en/DeviceDoc/00001570C.pdf)
+### [Explorer pHAT](https://shop.pimoroni.com/products/explorer-phat) - [Pinout](https://pinout.xyz/pinout/explorer_phat) - GPIO & [ADS1015](http://www.ti.com/product/ADS1015)
 ### [Four Letter pHAT](https://shop.pimoroni.com/products/four-letter-phat) - [Pinout](https://pinout.xyz/pinout/four_letter_phat) - [HT16K33](http://www.holtek.com/documents/10179/116711/HT16K33v120.pdf)
+### [Micro Dot pHAT](https://shop.pimoroni.com/products/microdot-phat) - [Pinout](https://pinout.xyz/pinout/micro_dot_phat) - [IS31FL3730](http://www.issi.com/WW/pdf/31FL3730.pdf)
 ### [OnOff SHIM](https://thepihut.com/products/onoff-shim) GPIO
-### [Pan-Tilt Hat](https://thepihut.com/products/pan-tilt-hat) - [Pinout](https://pinout.xyz/pinout/pan_tilt_hat) - PIC16F1503 Custom Firmware
-### [Scroll pHAT](https://thepihut.com/products/scroll-phat) - [Pinout]() - [IS31FL3730](http://www.issi.com/WW/pdf/31FL3730.pdf)
+### [Pan-Tilt HAT](https://thepihut.com/products/pan-tilt-hat) - [Pinout](https://pinout.xyz/pinout/pan_tilt_hat) - PIC16F1503 Custom Firmware
+### [pHat BEAT](https://shop.pimoroni.com/products/phat-beat) - [Pinout](https://pinout.xyz/pinout/phat_beat) - [I2S]() & GPIO
+### [Piano HAT](https://shop.pimoroni.com/products/piano-hat) - [Pinout](https://pinout.xyz/pinout/piano_hat) - [CAP1188](http://ww1.microchip.com/downloads/en/DeviceDoc/CAP1188%20.pdf) & GPIO
+### [Scroll pHAT](https://thepihut.com/products/scroll-phat) - [Pinout](https://pinout.xyz/pinout/scroll_phat) - [IS31FL3730](http://www.issi.com/WW/pdf/31FL3730.pdf)
+### [Scroll pHAT HD](https://thepihut.com/products/scroll-phat) - [Pinout](https://pinout.xyz/pinout/scroll_phat_hd) - [IS31FL3731](http://www.issi.com/WW/pdf/31FL3731.pdf)
 ### [Touch pHAT](https://thepihut.com/products/touch-phat) - [Pinout](https://pinout.xyz/pinout/touch_phat) - [CAP1166](http://ww1.microchip.com/downloads/en/DeviceDoc/CAP1166.pdf)
 
 ## Additional References

@@ -29,9 +29,12 @@ This implementation is kind of minimal, as I use it in personal projects this ma
 This implemenation is not tested at this time.
 
 ## Future Hats to support
+### [1.12" Mono OLED 128x128 B/W](https://thepihut.com/products/1-12-mono-oled-128x128-white-black-breakout) - [Pinout](https://shop.pimoroni.com/products/breakout-garden-hat) [SSD1306 or Similar]()
 ### [Automation HAT](https://shop.pimoroni.com/products/automation-hat) - [Pinout](https://pinout.xyz/pinout/automation_hat) - GPIO & [ADS1015](http://www.ti.com/product/ADS1015) & [SN3218](http://www.si-en.com/uploadpdf/s2011517171720.pdf)
 ### [Automation pHAT](https://shop.pimoroni.com/products/automation-phat) - [Pinout](https://pinout.xyz/pinout/automation_phat) - GPIO & [ADS1015](http://www.ti.com/product/ADS1015)
 ### [Blinkt!](https://thepihut.com/products/blinkt) - [Pinout](https://pinout.xyz/pinout/blinkt) - APA102
+### [BME680](https://thepihut.com/products/bme680) - [Pinout](https://shop.pimoroni.com/products/breakout-garden-hat) - [BME680](https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf)
+### [Breakout Garden HAT](https://shop.pimoroni.com/products/breakout-garden-hat) - [Pinout](https://pinout.xyz/pinout/breakout_garden_hat) - I2C pass through
 ### [Button Shim](https://shop.pimoroni.com/products/button-shim) - [Pinout](https://pinout.xyz/pinout/button_shim) - APA102 & [TCA9554A](http://www.ti.com/lit/ds/symlink/tca9554a.pdf)
 ### [Display-O-Tron HAT](https://shop.pimoroni.com/products/display-o-tron-hat) - [Pinout](https://pinout.xyz/pinout/display_o_tron_hat) - [CAP1166](http://ww1.microchip.com/downloads/en/DeviceDoc/CAP1166.pdf) & [SN3218](http://www.si-en.com/uploadpdf/s2011517171720.pdf)
 ### [Drum HAT](https://shop.pimoroni.com/products/drum-hat) - [Pinout](https://pinout.xyz/pinout/drum_hat) - [CAP1188](http://ww1.microchip.com/downloads/en/DeviceDoc/CAP1188%20.pdf)
@@ -40,6 +43,9 @@ This implemenation is not tested at this time.
 ### [Explorer pHAT](https://shop.pimoroni.com/products/explorer-phat) - [Pinout](https://pinout.xyz/pinout/explorer_phat) - GPIO & [ADS1015](http://www.ti.com/product/ADS1015)
 ### [Four Letter pHAT](https://shop.pimoroni.com/products/four-letter-phat) - [Pinout](https://pinout.xyz/pinout/four_letter_phat) - [HT16K33](http://www.holtek.com/documents/10179/116711/HT16K33v120.pdf)
 ### [Dual G2 High-Power Motor Driver 24v14](https://www.pololu.com/product/3752) by Pololu
+### [GFX HAT](https://shop.pimoroni.com/products/gfx-hat) - [Pinout](https://pinout.xyz/pinout/gfx_hat) - [SN3218](http://www.si-en.com/uploadpdf/s2011517171720.pdf) & [CAP1166](http://ww1.microchip.com/downloads/en/DeviceDoc/CAP1166.pdf) & [ST7567](https://www.newhavendisplay.com/appnotes/datasheets/LCDs/ST7567.pdf)
+### [HyperPixel 4](https://shop.pimoroni.com/products/hyperpixel-4) - [Pinout](https://pinout.xyz/pinout/hyperpixel4) - [Goodix Multi-Touch]() & GPIO
+### [Inky Phat](https://shop.pimoroni.com/products/inky-phat) - [Pinout](https://pinout.xyz/pinout/inky_phat) - SPI
 ### [LED SHIM](https://shop.pimoroni.com/products/led-shim) - [Pinout](https://pinout.xyz/pinout/led_shim) - [IS31FL3731](http://www.issi.com/WW/pdf/31FL3731.pdf)
 ### [Micro Dot pHAT](https://shop.pimoroni.com/products/microdot-phat) - [Pinout](https://pinout.xyz/pinout/micro_dot_phat) - [IS31FL3730](http://www.issi.com/WW/pdf/31FL3730.pdf)
 ### [Mote pHAT](https://shop.pimoroni.com/products/mote-phat) - [Pinout](https://pinout.xyz/pinout/mote_phat) - APA102
@@ -47,12 +53,14 @@ This implemenation is not tested at this time.
 ### [Pan-Tilt HAT](https://thepihut.com/products/pan-tilt-hat) - [Pinout](https://pinout.xyz/pinout/pan_tilt_hat) - PIC16F1503 Custom Firmware
 ### [pHat BEAT](https://shop.pimoroni.com/products/phat-beat) - [Pinout](https://pinout.xyz/pinout/phat_beat) - [I2S]() & GPIO
 ### [Piano HAT](https://shop.pimoroni.com/products/piano-hat) - [Pinout](https://pinout.xyz/pinout/piano_hat) - [CAP1188](http://ww1.microchip.com/downloads/en/DeviceDoc/CAP1188%20.pdf) & GPIO
+### [Picade X](https://shop.pimoroni.com/products/picade-x-hat) - [Pinout](https://pinout.xyz/pinout/picade_x_hat) - I2S (Unsupported) & GPIO
 ### [PiGlow](https://shop.pimoroni.com/products/piglow) - [Pinout](https://pinout.xyz/pinout/piglow) - [SN3218](http://www.si-en.com/uploadpdf/s2011517171720.pdf)
 ### [Rainbow Hat](https://thepihut.com/products/rainbow-hat-for-android-things) - [Pinout](https://pinout.xyz/pinout/rainbow_hat) - [HT16K33](http://www.holtek.com/documents/10179/116711/HT16K33v120.pdf) & [BMP280](https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001-19.pdf) & [QT1070](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9596-AT42-QTouch-BSW-AT42QT1070_Datasheet.pdf) & APA102
 ### [RTC PiZero addon](https://thepihut.com/products/rtc-pizero) - [Pinout](https://pinout.xyz/pinout/rtc_pi_zero) - [DS1307](https://datasheets.maximintegrated.com/en/ds/DS1307.pdf)
 ### [Scroll pHAT](https://thepihut.com/products/scroll-phat) - [Pinout](https://pinout.xyz/pinout/scroll_phat) - [IS31FL3730](http://www.issi.com/WW/pdf/31FL3730.pdf)
 ### [Scroll pHAT HD](https://thepihut.com/products/scroll-phat) - [Pinout](https://pinout.xyz/pinout/scroll_phat_hd) - [IS31FL3731](http://www.issi.com/WW/pdf/31FL3731.pdf)
 ### [Skywriter HAT](https://shop.pimoroni.com/products/skywriter-hat) - [Pinout](https://pinout.xyz/pinout/skywriter_hat) - [MGC3130](http://ww1.microchip.com/downloads/en/DeviceDoc/40001667E.pdf)
+### [Time of Flight](https://shop.pimoroni.com/products/vl53l1x-breakout) - [Pinout]() - [VL53L1X](https://cdn.shopify.com/s/files/1/0174/1800/files/vl53l1x.pdf)
 ### [Touch pHAT](https://thepihut.com/products/touch-phat) - [Pinout](https://pinout.xyz/pinout/touch_phat) - [CAP1166](http://ww1.microchip.com/downloads/en/DeviceDoc/CAP1166.pdf)
 
 ## No plans to ever support

@@ -29,7 +29,7 @@ This implementation is kind of minimal, as I use it in personal projects this ma
 This implemenation is not tested at this time.
 
 ## Future Hats to support
-### [1.12" Mono OLED 128x128 B/W](https://thepihut.com/products/1-12-mono-oled-128x128-white-black-breakout) - [Pinout](https://shop.pimoroni.com/products/breakout-garden-hat) [SSD1306 or Similar]()
+### [1.12" Mono OLED 128x128 B/W](https://thepihut.com/products/1-12-mono-oled-128x128-white-black-breakout) - [Pinout](https://shop.pimoroni.com/products/breakout-garden-hat) [SSD1327](https://luma-oled.readthedocs.io/en/latest/_downloads/084d410bfa4d7b33040c2e87264d8757/SSD1327.pdf)
 ### [Automation HAT](https://shop.pimoroni.com/products/automation-hat) - [Pinout](https://pinout.xyz/pinout/automation_hat) - GPIO & [ADS1015](http://www.ti.com/product/ADS1015) & [SN3218](http://www.si-en.com/uploadpdf/s2011517171720.pdf)
 ### [Automation pHAT](https://shop.pimoroni.com/products/automation-phat) - [Pinout](https://pinout.xyz/pinout/automation_phat) - GPIO & [ADS1015](http://www.ti.com/product/ADS1015)
 ### [Blinkt!](https://thepihut.com/products/blinkt) - [Pinout](https://pinout.xyz/pinout/blinkt) - APA102
